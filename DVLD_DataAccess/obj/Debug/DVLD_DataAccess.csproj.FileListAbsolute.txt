@@ -16,3 +16,9 @@ C:\Users\Abdullah\Downloads\DVLD Project Final\Project\DVLD_DataAccess\obj\Debug
 C:\Users\Abdullah\Downloads\DVLD Project Final\Project\DVLD_DataAccess\obj\Debug\DVLD_DataAccess.csproj.CoreCompileInputs.cache
 C:\Users\Abdullah\Downloads\DVLD Project Final\Project\DVLD_DataAccess\obj\Debug\DVLD_DataAccess.dll
 C:\Users\Abdullah\Downloads\DVLD Project Final\Project\DVLD_DataAccess\obj\Debug\DVLD_DataAccess.pdb
+D:\Trraining c#\DVLD\DVLD_DataAccess\obj\Debug\DVLD_DataAccess.csproj.AssemblyReference.cache
+D:\Trraining c#\DVLD\DVLD_DataAccess\obj\Debug\DVLD_DataAccess.csproj.CoreCompileInputs.cache
+D:\Trraining c#\DVLD\DVLD_DataAccess\obj\Debug\DVLD_DataAccess.dll
+D:\Trraining c#\DVLD\DVLD_DataAccess\obj\Debug\DVLD_DataAccess.pdb
+D:\Trraining c#\DVLD\DVLD_DataAccess\bin\Debug\DVLD_DataAccess.dll
+D:\Trraining c#\DVLD\DVLD_DataAccess\bin\Debug\DVLD_DataAccess.pdb
