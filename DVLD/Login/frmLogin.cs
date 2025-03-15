@@ -1,4 +1,5 @@
 ﻿using DVLD.Classes;
+using DVLD.Global_Classes;
 using DVLD_Buisness;
 using System;
 using System.Collections.Generic;
@@ -36,6 +37,8 @@ namespace DVLD.Login
                 {
                     //store username and password
                     clsGlobal.RememberUsernameAndPassword(txtUserName.Text.Trim(), txtPassword.Text.Trim());
+                    ClsRegistry.WriteUserName( txtUserName.Text.Trim());
+                    ClsRegistry.WritePassword( txtPassword.Text.Trim());
 
                 } 
                   else
@@ -72,14 +75,19 @@ namespace DVLD.Login
         {
             string UserName = "", Password = "";
 
-            if (clsGlobal.GetStoredCredential(ref UserName, ref Password))
-            {
-                txtUserName.Text = UserName;
-                txtPassword.Text = Password;
-                chkRememberMe.Checked = true;
-            }
-            else
-                chkRememberMe.Checked = false;
+            //if (clsGlobal.GetStoredCredential(ref UserName, ref Password))
+            //{
+            //    txtUserName.Text = UserName;
+            //    txtPassword.Text = Password;
+            //    chkRememberMe.Checked = true;
+            //}
+            //else
+            //    chkRememberMe.Checked = false;
+
+            txtUserName.Text = ClsRegistry.ReadUserName();
+            txtPassword.Text = ClsRegistry.ReadPassword();
+
+
 
         }
     }

@@ -58,6 +58,7 @@
     <Compile Include="Applications\Rlease Detained License\frmReleaseDetainedLicenseApplication.Designer.cs">
       <DependentUpon>frmReleaseDetainedLicenseApplication.cs</DependentUpon>
     </Compile>
+    <Compile Include="Global Classes\ClsRegistry.cs" />
     <Compile Include="Licenses\Detain License\frmDetainLicenseApplication.cs">
       <SubType>Form</SubType>
     </Compile>
