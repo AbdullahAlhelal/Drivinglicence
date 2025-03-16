@@ -37,3 +37,12 @@ D:\Trraining c#\DVLD\DVLD_Buisness\bin\Debug\DVLD_Buisness.pdb
 D:\Trraining c#\DVLD\DVLD_Buisness\bin\Debug\DVLD_DataAccess.dll
 D:\Trraining c#\DVLD\DVLD_Buisness\bin\Debug\DVLD_DataAccess.pdb
 D:\Trraining c#\DVLD\DVLD_Buisness\obj\Debug\DVLD_Bui.E5CEC4E3.Up2Date
+C:\Users\abdullah\Source\Repos\Drivinglicence\DVLD_Buisness\bin\Debug\DVLD_Buisness.dll
+C:\Users\abdullah\Source\Repos\Drivinglicence\DVLD_Buisness\bin\Debug\DVLD_Buisness.pdb
+C:\Users\abdullah\Source\Repos\Drivinglicence\DVLD_Buisness\bin\Debug\DVLD_DataAccess.dll
+C:\Users\abdullah\Source\Repos\Drivinglicence\DVLD_Buisness\bin\Debug\DVLD_DataAccess.pdb
+C:\Users\abdullah\Source\Repos\Drivinglicence\DVLD_Buisness\obj\Debug\DVLD_Buisness.csproj.AssemblyReference.cache
+C:\Users\abdullah\Source\Repos\Drivinglicence\DVLD_Buisness\obj\Debug\DVLD_Buisness.csproj.CoreCompileInputs.cache
+C:\Users\abdullah\Source\Repos\Drivinglicence\DVLD_Buisness\obj\Debug\DVLD_Bui.E5CEC4E3.Up2Date
+C:\Users\abdullah\Source\Repos\Drivinglicence\DVLD_Buisness\obj\Debug\DVLD_Buisness.dll
+C:\Users\abdullah\Source\Repos\Drivinglicence\DVLD_Buisness\obj\Debug\DVLD_Buisness.pdb

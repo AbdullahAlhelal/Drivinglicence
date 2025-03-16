@@ -28,7 +28,7 @@ namespace DVLD.Login
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            clsUser user= clsUser.FindByUsernameAndPassword(txtUserName.Text.Trim(),txtPassword.Text.Trim());
+            clsUser user= clsUser.FindByUsernameAndPassword(txtUserName.Text.Trim(), clsUtil.EncrptionPassword(txtPassword.Text.Trim()));
 
             if (user != null) 
             { 
@@ -38,7 +38,7 @@ namespace DVLD.Login
                     //store username and password
                     clsGlobal.RememberUsernameAndPassword(txtUserName.Text.Trim(), txtPassword.Text.Trim());
                     ClsRegistry.WriteUserName( txtUserName.Text.Trim());
-                    ClsRegistry.WritePassword( txtPassword.Text.Trim());
+                    ClsRegistry.WritePassword(clsUtil.EncrptionPassword( txtPassword.Text.Trim()));
 
                 } 
                   else
@@ -73,7 +73,7 @@ namespace DVLD.Login
 
         private void frmLogin_Load(object sender, EventArgs e)
         {
-            string UserName = "", Password = "";
+            //string UserName = "", Password = "";
 
             //if (clsGlobal.GetStoredCredential(ref UserName, ref Password))
             //{

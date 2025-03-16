@@ -118,7 +118,7 @@ namespace DVLD.User
             }
 
             _User.Password = txtNewPassword.Text;
-
+            _User.Password = clsUtil.EncrptionPassword(_User.Password);
             if (_User.Save())
             {
                 MessageBox.Show("Password Changed Successfully.",

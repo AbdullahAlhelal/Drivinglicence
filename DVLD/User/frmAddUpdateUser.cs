@@ -121,7 +121,7 @@ namespace DVLD.User
             _User.UserName = txtUserName.Text.Trim();
             _User.Password = txtPassword.Text.Trim();
             _User.IsActive = chkIsActive.Checked;
-
+            _User.Password = clsUtil.EncrptionPassword(_User.Password);
 
             if (_User.Save())
             {

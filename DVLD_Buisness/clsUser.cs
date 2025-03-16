@@ -4,6 +4,7 @@ using System.Data;
 using System.Runtime.InteropServices;
 using DVLD_DataAccess;
 
+
 namespace DVLD_Buisness
 {
     public  class clsUser
@@ -95,6 +96,7 @@ namespace DVLD_Buisness
 
             bool IsActive = false;
 
+            clsuil
             bool IsFound = clsUserData.GetUserInfoByUsernameAndPassword
                                 (UserName , Password,ref UserID,ref PersonID, ref IsActive);
 
